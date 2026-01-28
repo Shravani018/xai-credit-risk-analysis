@@ -46,6 +46,13 @@ demographic attributes.
 
 ---
 
+### 🔜 Next Steps
+- Model tuning and performance optimization  
+- Deeper local explainability analysis  
+- Business-oriented interpretation of risk drivers  
+- Optional interactive demo
+
+---
 ### 🎯 Key Objectives
 - Build reliable credit risk prediction models
 - Compare interpretable and black-box models

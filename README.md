@@ -1,6 +1,6 @@
-## Explainable Credit Risk Modeling – German Credit Dataset
+## 🔍 Explainable Credit Risk Modeling – German Credit Dataset 
 
-### Project Overview
+### 🧠 Project Overview 
 This project implements an end-to-end credit risk analysis pipeline using the
 Statlog (German Credit) dataset, with a strong emphasis on explainable AI (XAI).
 The goal is to build predictive models for credit risk while providing clear,
@@ -12,7 +12,7 @@ interpretation techniques.
 
 ---
 
-### Dataset
+### 📊 Dataset
 - **Name:** Statlog (German Credit Data)
 - **Source:** UCI Machine Learning Repository
 - **Samples:** 1,000
@@ -26,7 +26,7 @@ demographic attributes.
 
 ---
 
-### Methodology
+### ⚙️ Methodology
 1. **Exploratory Data Analysis**
    - Data quality checks and feature inspection
    - Class balance and distribution analysis
@@ -46,14 +46,14 @@ demographic attributes.
 
 ---
 
-### Key Objectives
+### 🎯 Key Objectives
 - Build reliable credit risk prediction models
 - Compare interpretable and black-box models
 - Apply explainable AI techniques to improve transparency
 - Support responsible and trustworthy AI in financial applications
 ---
 
-### References
+### 📚 References
 - UCI Machine Learning Repository: Statlog (German Credit Data)
 - SHAP: SHapley Additive exPlanations
 - LIME: Local Interpretable Model-Agnostic Explanations

@@ -7,7 +7,7 @@ The goal is to build predictive models for credit risk while providing clear,
 interpretable explanations of their decisions.
 
 The project progresses from exploratory data analysis to model training and
-evaluation, followed by global and local explainability using state-of-the-art
+evaluation, followed by global and local explainability using
 interpretation techniques.
 
 ---

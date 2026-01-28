@@ -1,0 +1,12 @@
+ucimlrepo
+numpy
+pandas
+scikit-learn>=1.1
+xgboost
+shap
+lime
+matplotlib
+seaborn
+joblib
+fairlearn
+yellowbrick

@@ -47,8 +47,7 @@ demographic attributes.
 ---
 
 ### 🔜 Next Steps
-- Model tuning and performance optimization  
-- Deeper local explainability analysis  
+- Implementing SHAP and LIME
 - Business-oriented interpretation of risk drivers  
 - Optional interactive demo
 

@@ -47,8 +47,6 @@ demographic attributes.
 ---
 
 ### 🔜 Next Steps
-- Implementing SHAP and LIME
-- Business-oriented interpretation of risk drivers  
 - Optional interactive demo
 
 ---

@@ -8,5 +8,4 @@ lime
 matplotlib
 seaborn
 joblib
-fairlearn
-yellowbrick
+streamlit

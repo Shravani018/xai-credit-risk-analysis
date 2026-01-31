@@ -58,6 +58,6 @@ demographic attributes.
 ---
 
 ### 📚 References
-- UCI Machine Learning Repository: Statlog (German Credit Data)
-- SHAP: SHapley Additive exPlanations
-- LIME: Local Interpretable Model-Agnostic Explanations
+- [UCI Machine Learning Repository: Statlog (German Credit Data)](https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data)
+- [SHAP: SHapley Additive exPlanations](https://shap.readthedocs.io/)
+- [LIME: Local Interpretable Model-Agnostic Explanations](https://c3.ai/glossary/data-science/lime-local-interpretable-model-agnostic-explanations/)

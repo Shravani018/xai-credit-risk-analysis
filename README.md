@@ -1,5 +1,10 @@
 # 🔍 Explainable Credit Risk Modeling – German Credit Dataset
-
+<p align="center">
+  <img src="https://img.shields.io/badge/Models-LogReg%20|%20Decision%20Tree%20|%20RF%20|%20XGBoost-blue" />
+  <img src="https://img.shields.io/badge/Focus-Credit%20Risk%20Prediction-red" />
+  <img src="https://img.shields.io/badge/Evaluation-ROC--AUC%20%26%20PR--AUC-green" />
+  <img src="https://img.shields.io/badge/Explainability-SHAP%20%26%20LIME-purple" />
+</p>
 ## Project Overview
 
 This project implements an end-to-end **credit risk analysis pipeline** using the **Statlog (German Credit) dataset**, with a strong emphasis on **Explainable Artificial Intelligence (XAI)**. The primary objective is to build reliable predictive models for credit risk assessment while ensuring transparency and interpretability of model decisions, which is critical in financial applications.

@@ -225,14 +225,14 @@ with c2:
 with c3:
     st.markdown(f'<div class="card"><div class="small">Prediction</div><div class="big"><span class="{pred_state}">{pred_label}</span></div></div>', unsafe_allow_html=True)
 with c4:
-    st.markdown(f'<div class="card"><div class="small">Good credit probability</div><div class="prob">{pct}</div></div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="card"><div class="small">Bad credit probability</div><div class="prob" style="color:#ef4444">{pct}</div></div>', unsafe_allow_html=True)
 
 # SHAP 
 left, right = st.columns([6, 4], gap="medium")
 
 with left:
     st.markdown('<div class="card" style="padding:8px">', unsafe_allow_html=True)
-    st.markdown("<strong>SHAP — local waterfall</strong>", unsafe_allow_html=True)
+    st.markdown("<strong>SHAP </strong>", unsafe_allow_html=True)
     try:
         local_shap = np.asarray(shap_vals[idx])
         base = float(shap_base) if shap_base is not None else 0.0
@@ -254,7 +254,7 @@ with left:
 
 with right:
     st.markdown('<div class="card" style="padding:8px">', unsafe_allow_html=True)
-    st.markdown("<strong>Findings — SHAP</strong>", unsafe_allow_html=True)
+    st.markdown("<strong>Findings: SHAP</strong>", unsafe_allow_html=True)
     try:
         shap_html = shap_summary(local_shap, feature_names, X_test_df.iloc[idx], k=3, pred=pred)
     except:
@@ -267,7 +267,7 @@ left2, right2 = st.columns([6, 4], gap="medium")
 
 with left2:
     st.markdown('<div class="card" style="padding:8px">', unsafe_allow_html=True)
-    st.markdown("<strong>LIME — local surrogate</strong>", unsafe_allow_html=True)
+    st.markdown("<strong>LIME</strong>", unsafe_allow_html=True)
     try:
         X_lime_np = np.array(X_lime_train)
         lime_exp_obj = LimeTabularExplainer(
@@ -315,7 +315,7 @@ with left2:
 
 with right2:
     st.markdown('<div class="card" style="padding:8px">', unsafe_allow_html=True)
-    st.markdown("<strong>Findings — LIME</strong>", unsafe_allow_html=True)
+    st.markdown("<strong>Findings: LIME</strong>", unsafe_allow_html=True)
     try:
         lime_list = lime_exp.as_list(label=target_idx)
         lime_html = lime_summary(lime_list, X_test_df.iloc[idx], k=3, pred=pred)

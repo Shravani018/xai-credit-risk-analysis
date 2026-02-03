@@ -10,7 +10,7 @@ The workflow spans exploratory data analysis, model development and evaluation, 
 
 - **Name:** Statlog (German Credit Data)  
 - **Source:** UCI Machine Learning Repository  
-- **Dataset URL:** (URL)[https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data]  
+- **Dataset URL:** [URL](https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data)
 - **Number of samples:** 1,000  
 - **Number of features:** 20 (categorical and numerical)  
 - **Target variable:** Credit risk (good vs bad credit)
@@ -73,7 +73,7 @@ Based on these findings, **Random Forest is selected as the final model** for su
 
 ## References
 
-- (SHAP: SHapley Additive Explanations)[https://shap.readthedocs.io/]
-- (LIME: Local Interpretable Model-Agnostic Explanations)[https://github.com/marcotcr/lime]
+- [SHAP: SHapley Additive Explanations](https://shap.readthedocs.io/)
+- [LIME: Local Interpretable Model-Agnostic Explanations](https://github.com/marcotcr/lime)
 
 

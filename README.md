@@ -7,11 +7,14 @@
   <img src="https://img.shields.io/badge/Explainability-SHAP%20%26%20LIME-purple" />
 </p>
 
+
 ## Project Overview
 
 This project implements an end-to-end **credit risk analysis pipeline** using the **Statlog (German Credit) dataset**, with a strong emphasis on **Explainable Artificial Intelligence (XAI)**. The primary objective is to build reliable predictive models for credit risk assessment while ensuring transparency and interpretability of model decisions, which is critical in financial applications.
 
 The workflow spans exploratory data analysis, model development and evaluation, cross-validation-based comparison, and global and local explainability using model-agnostic interpretation techniques.
+
+---
 
 ## Dataset
 
@@ -23,6 +26,22 @@ The workflow spans exploratory data analysis, model development and evaluation, 
 - **Target variable:** Credit risk (good vs bad credit)
 
 The dataset represents a realistic financial decision-making scenario and includes attributes related to credit history, loan characteristics, and demographic information.
+
+---
+
+
+## Dashboard Demo
+
+The project includes an interactive dashboard that visualizes:
+- Credit risk predictions  
+- Feature-level contributions  
+- Global and local explainability outputs  
+
+Below is a demonstration of the dashboard functionality:
+
+![Dashboard Demo](./dashboard/Demo.gif)
+
+---
 
 ## Methodology
 
@@ -58,17 +77,7 @@ To ensure transparency and interpretability of model predictions, the following 
 - **Global explanations** using SHAP to identify overall feature importance  
 - **Local explanations** using SHAP and LIME to explain individual predictions  
 
-## Dashboard Demo
-
-The project includes an interactive dashboard that visualizes:
-- Credit risk predictions  
-- Feature-level contributions  
-- Global and local explainability outputs  
-
-Below is a demonstration of the dashboard functionality:
-
-![Dashboard Demo](./dashboard/Demo.gif)
-
+---
 ## Conclusion
 
 - Given the relatively small and well-structured nature of the dataset, standard machine learning models are able to capture most underlying patterns without extensive hyperparameter tuning. 
@@ -77,6 +86,8 @@ Below is a demonstration of the dashboard functionality:
 - **XGBoost** performs competitively but does not outperform Random Forest in this setting; on a categorical-heavy dataset without extensive tuning, it tends to produce sharper and less stable probability estimates.
 
 Based on these findings, **Random Forest is selected as the final model** for subsequent explainability analysis.
+
+---
 
 ## References
 
